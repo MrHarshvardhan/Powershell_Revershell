@@ -354,7 +354,5 @@ while ($true) {
         Write-Host "An unexpected error occurred: $_"
     }
 }
-"@
-
 # Execute the script
 powershell -Window Hidden -Command $Script
